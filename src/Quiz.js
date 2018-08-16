@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react' // Import React library
 
-let quizData = require('./quiz_data.json')
+let quizData = require('./quiz_data.json') // load data (json)
 
 class Quiz extends Component {
 	constructor (props) {
@@ -16,4 +16,4 @@ class Quiz extends Component {
 	}
 }
 
-export default Quiz
+export default Quiz // export Quiz
